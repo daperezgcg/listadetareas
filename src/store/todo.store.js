@@ -40,7 +40,7 @@ const getTodo = (filter = filters.All) => {
 }
 
 const addTodo = (description) => {
-    if (!description) throw new Error('Not implemented');
+    if (!description) throw new Error('Not implementedes');
 
     state.todos.push(new Todo(description))
 }
